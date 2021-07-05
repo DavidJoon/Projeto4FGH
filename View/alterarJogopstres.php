@@ -33,7 +33,7 @@ $jogo = mysqli_fetch_assoc($resul);
 
     <div class="col-md-5">
       <label for="inputGenero" class="form-label">Gênero</label>
-      <input type="text" name="genero" value="<?=$jogo['generopsum']?>" class="form-control" id="inputGenero">
+      <input type="text" name="genero" value="<?=$jogo['generopstres']?>" class="form-control" id="inputGenero">
     </div>
 
     <div class="col-md-5">

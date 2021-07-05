@@ -29,7 +29,7 @@ include_once("../Model/conexao.php");
       <th scope="col">Gênero</th>
       <th scope="col">Desenvovedora</th>
       <th scope="col">Capa</th>
-      <th scope="col">Sinopse</th>
+      <th scope="col">Resumo</th>
       <th scope="col">Alterar</th>
       <th scope="col">Apagar</th>
     </tr>
@@ -47,7 +47,7 @@ foreach($dado as $dados) :
       <td><?=$dados["dataatari"]?></td>
       <td><?=$dados["generoatari"]?></td>
       <td><?=$dados["desenatari"]?></td>
-      <td><img src="<?=$dados["capaatari"]?>" width="180" ></td>
+      <td><img src="<?=$dados["capaatari"]?>" height="250" width="200" ></td>
       <td><?=$dados["sinatari"]?></td>
       <td>
       <a class="btn btn-primary" href="alterarAtari.php?codigo=<?=$dados["codatari"]?>">Alterar</a>

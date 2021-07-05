@@ -29,7 +29,7 @@ include_once("../Model/conexao.php");
       <th scope="col">Gênero</th>
       <th scope="col">Desenvovedora</th>
       <th scope="col">Capa</th>
-      <th scope="col">Sinopse</th>
+      <th scope="col">Resumo</th>
       <th scope="col">Alterar</th>
       <th scope="col">Apagar</th>
     </tr>
@@ -47,7 +47,7 @@ foreach($dado as $dados) :
       <td><?=$dados["datamega"]?></td>
       <td><?=$dados["generomega"]?></td>
       <td><?=$dados["desenmega"]?></td>
-      <td><img src="<?=$dados["capamega"]?>" width="180" ></td>
+      <td><img src="<?=$dados["capamega"]?>" height="250" width="200" ></td>
       <td><?=$dados["sinmega"]?></td>
       <td>
       <a class="btn btn-primary" href="alterarMega.php?codigo=<?=$dados["codmega"]?>">Alterar</a>

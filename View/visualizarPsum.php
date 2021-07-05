@@ -29,7 +29,7 @@ include_once("../Model/conexao.php");
       <th scope="col">Gênero</th>
       <th scope="col">Desenvovedora</th>
       <th scope="col">Capa</th>
-      <th scope="col">Sinopse</th>
+      <th scope="col">Resumo</th>
       <th scope="col">Alterar</th>
       <th scope="col">Apagar</th>
     </tr>
@@ -47,7 +47,7 @@ foreach($dado as $dados) :
       <td><?=$dados["datapsum"]?></td>
       <td><?=$dados["generopsum"]?></td>
       <td><?=$dados["desenpsum"]?></td>
-      <td><img src="<?=$dados["capapsum"]?>" width="180" ></td>
+      <td><img src="<?=$dados["capapsum"]?>" height="200" width="200" ></td>
       <td><?=$dados["sinpsum"]?></td>
       <td>
       <a class="btn btn-primary" href="alterarJogopsum.php?codigo=<?=$dados["codpsum"]?>">Alterar</a>
