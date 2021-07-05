@@ -75,8 +75,8 @@ liberaAcesso();
            Xbox
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="cadastroFuncionario.php">Cadastrar</a></li>
-            <li><a class="dropdown-item" href="../View/visualizarFuncionario.php">Buscar</a></li>
+            <li><a class="dropdown-item" href="../View/cadastroXbox.php">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="../View/visualizarXbox.php">Buscar</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -84,8 +84,8 @@ liberaAcesso();
            Xbox 360
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="cadastroFuncionario.php">Cadastrar</a></li>
-            <li><a class="dropdown-item" href="../View/visualizarFuncionario.php">Buscar</a></li>
+            <li><a class="dropdown-item" href="../View/cadastroXboxdois.php">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="../View/visualizarXboxdois.php">Buscar</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -93,8 +93,8 @@ liberaAcesso();
            Xbox One
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="cadastroFuncionario.php">Cadastrar</a></li>
-            <li><a class="dropdown-item" href="../View/visualizarFuncionario.php">Buscar</a></li>
+            <li><a class="dropdown-item" href="../View/cadastroXboxone.php">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="../View/visualizarXboxone.php">Buscar</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -102,8 +102,8 @@ liberaAcesso();
            Xbox X/S
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="cadastroFuncionario.php">Cadastrar</a></li>
-            <li><a class="dropdown-item" href="../View/visualizarFuncionario.php">Buscar</a></li>
+            <li><a class="dropdown-item" href="../View/cadastroXboxseries.php">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="../View/visualizarXboxseries.php">Buscar</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -111,8 +111,8 @@ liberaAcesso();
            PC
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="cadastroFuncionario.php">Cadastrar</a></li>
-            <li><a class="dropdown-item" href="../View/visualizarFuncionario.php">Buscar</a></li>
+            <li><a class="dropdown-item" href="../View/cadastroPc.php">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="../View/visualizarPc.php">Buscar</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -120,8 +120,8 @@ liberaAcesso();
            Atari
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="cadastroFuncionario.php">Cadastrar</a></li>
-            <li><a class="dropdown-item" href="../View/visualizarFuncionario.php">Buscar</a></li>
+            <li><a class="dropdown-item" href="../View/cadastroAtari.php">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="../View/visualizarAtari.php">Buscar</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -129,8 +129,8 @@ liberaAcesso();
            Mega Drive
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="cadastroFuncionario.php">Cadastrar</a></li>
-            <li><a class="dropdown-item" href="../View/visualizarFuncionario.php">Buscar</a></li>
+            <li><a class="dropdown-item" href="../View/cadastroMega.php">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="../View/visualizarMega.php">Buscar</a></li>
           </ul>
         </li>
         <li class="dropdown-item"><a class="dropdown-item" href="#">Olá, <?php echo($_SESSION["funcionario"]);?></a></li>
