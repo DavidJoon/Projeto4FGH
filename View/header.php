@@ -30,7 +30,7 @@ liberaAcesso();
            PS1
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="cadastroPsum.php">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="../View/cadastroPsum.php">Cadastrar</a></li>
             <li><a class="dropdown-item" href="../View/visualizarPsum.php">Buscar</a></li>
           </ul>
         </li>
@@ -39,8 +39,8 @@ liberaAcesso();
            PS2
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="cadastroFuncionario.php">Cadastrar</a></li>
-            <li><a class="dropdown-item" href="../View/visualizarFuncionario.php">Buscar</a></li>
+            <li><a class="dropdown-item" href="../View/cadastroPsdois.php">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="../View/visualizarPsdois.php">Buscar</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -48,8 +48,8 @@ liberaAcesso();
            PS3
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="cadastroFuncionario.php">Cadastrar</a></li>
-            <li><a class="dropdown-item" href="../View/visualizarFuncionario.php">Buscar</a></li>
+            <li><a class="dropdown-item" href="../View/cadastroPstres.php">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="../View/visualizarPstres.php">Buscar</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -57,8 +57,8 @@ liberaAcesso();
            PS4
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="cadastroFuncionario.php">Cadastrar</a></li>
-            <li><a class="dropdown-item" href="../View/visualizarFuncionario.php">Buscar</a></li>
+            <li><a class="dropdown-item" href="../View/cadastroPsquatro.php">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="../View/visualizarPsquatro.php">Buscar</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -66,8 +66,8 @@ liberaAcesso();
            PS5
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="cadastroFuncionario.php">Cadastrar</a></li>
-            <li><a class="dropdown-item" href="../View/visualizarFuncionario.php">Buscar</a></li>
+            <li><a class="dropdown-item" href="../View/cadastroPscinco.php">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="../View/visualizarPscinco.php">Buscar</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">

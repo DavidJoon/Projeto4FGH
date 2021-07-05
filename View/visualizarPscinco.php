@@ -2,7 +2,7 @@
 include_once("../Model/bancoUsuario.php");
 liberaAcesso();
 include_once("header.php");
-include_once("../Model/bancoPsum.php");
+include_once("../Model/bancoPscinco.php");
 include_once("../Model/conexao.php");
 //echo("<script> alert('Oi, tudo bem?.');</script>");
 ?>
@@ -37,24 +37,24 @@ include_once("../Model/conexao.php");
   <tbody>
   <?php 
   $jogo = isset($_POST["jogo"]) ? $_POST["jogo"]:"";
-$dado = visuNomePsum($conexao, $jogo); 
+$dado = visuNomePscinco($conexao, $jogo); 
 
 foreach($dado as $dados) :
 ?>
     <tr>
-    <th scope="row"><?=$dados["codpsum"]?></th>
-      <td><?=$dados["nomepsum"]?></td>
-      <td><?=$dados["datapsum"]?></td>
-      <td><?=$dados["generopsum"]?></td>
-      <td><?=$dados["desenpsum"]?></td>
-      <td><img src="<?=$dados["capapsum"]?>" width="180" ></td>
-      <td><?=$dados["sinpsum"]?></td>
+    <th scope="row"><?=$dados["codpscinco"]?></th>
+      <td><?=$dados["nomepscinco"]?></td>
+      <td><?=$dados["datapscinco"]?></td>
+      <td><?=$dados["generopscinco"]?></td>
+      <td><?=$dados["desenpscinco"]?></td>
+      <td><img src="<?=$dados["capapscinco"]?>" width="180" ></td>
+      <td><?=$dados["sinpscinco"]?></td>
       <td>
-      <a class="btn btn-primary" href="alterarJogopsum.php?codigo=<?=$dados["codpsum"]?>">Alterar</a>
+      <a class="btn btn-primary" href="alterarJogopscinco.php?codigo=<?=$dados["codpscinco"]?>">Alterar</a>
       </td>
       <td>
-      <form action="../Controller/deletePsum.php" method="Post">
-        <input type="hidden" name="codpsum" value="<?=$dados["codpsum"]?>">
+      <form action="../Controller/deletePscinco.php" method="Post">
+        <input type="hidden" name="codpscinco" value="<?=$dados["codpscinco"]?>">
         <button type="submit" class="btn btn-danger">Deletar</button>
       </form>
       </td>

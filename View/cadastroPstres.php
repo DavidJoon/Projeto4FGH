@@ -5,7 +5,7 @@ include("header.php");
 ?>
 
 <div class="container">
-<form action="../Controller/inserirPsum.php" method="get" class="row g-3">
+<form action="../Controller/inserirPstres.php" method="get" class="row g-3">
   
   <div class="col-md-12">
     <label for="inputJogo" class="form-label">Jogo</label>
