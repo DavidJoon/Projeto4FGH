@@ -17,7 +17,7 @@ liberaAcesso();
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <li class="navbar-nav mr-auto">
-      <a href="index.php"><img class="logotipo" src="img/logo.png" width="50px"></a>
+      <a href="index.php"><img class="logotipofun" src="img/logo.png" width="50px"></a>
       </li>
     </div>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -142,9 +142,6 @@ liberaAcesso();
             <li><a class="dropdown-item" href="../View/visualizarMega.php">Buscar</a></li>
           </ul>
         </li>
-          <li class="navbar-nav mr-auto">
-          <a href="../Controller/logout.php"><button class="btnn" type="submit">Logar</button></a>
-          </li>
         </li>
       </ul>
     </div>

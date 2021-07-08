@@ -1,3 +1,152 @@
+/* ==================================== INDEX ==================================== */
+
+*{ /* Config para a página toda*/
+	margin: 0px; /* margem externa da página zerada */
+	padding: 0px; /*margem interna da página zerada */
+}
+body{
+    width: 1349px;
+}
+
+/* Logo e Nome do Site */
+.logotipo{
+    margin-top: 5px;
+    float: left;
+    margin-left: 10px;
+}
+.textlogo{
+    float: left;
+    color:#c95979;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+/* Menu Inicial */
+header{
+    width: 1349px;
+    height: 55px;
+}
+.botaologar{
+    width: 90px;
+    height: 55px;
+    float: left;
+    margin-left: 350px;
+}
+/* Navbar */
+.nvprincipal{ /* Estilo da barra de navegação */
+    float: left;
+    margin-top: 10px;
+    height: 45px;
+	font-size: 18px; /* Tamanho da fonte */
+    margin-left: 130px;
+    width: 500px;
+}
+.ulprincipal{/* Estilo da lista*/
+	list-style-type: none;
+} 
+.bot{
+    font-family: Arial, Helvetica, sans-serif;
+	float: left; /* Configurar o menu para horizontal*/
+	margin-left: 16px;
+ /* margem interna cima/baixo 5px e dir/esq 10px*/
+	color: white; /* cor das palavras do menu*/
+	font-weight: bold; /* fonte em negrito */
+	line-height: 2.2;
+}
+.ulprincipal .bot:hover{ /* config mouse sobre */
+	background-color: rgba(255,255,255,0.2);
+}
+
+/* Botão Logar e outros */
+.btnn{
+    float: left;
+    background-color:#c95979;
+    color: white;
+    border-color: #f18094;
+    border-radius: 5px;
+    padding:6px;
+    width: 5rem;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+/* Main */
+main{
+    margin-top: 10px;
+    width: 1349px;
+    float: left;
+}
+
+/* Letreiro */
+.letreiro{
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divletreiro{
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #c95979;
+    border-width: 5px;
+    background-color: black;
+    color: white;
+    width: 700px;
+    margin-left: 300px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Banner */
+.destaque{
+    float: left;
+    align-items: center;
+	width: 1100px;
+	height: 300px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+/* Plataforma e Audio */
+.textplataforma{
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #c95979;
+    border-width: 5px;
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+    padding: 5px;
+}
+.plataform{
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width: 130px;
+    float: left;
+    margin-left: 180px;
+    margin-top: 15px;
+}
+audio{
+    float: left;
+    margin-top: 20px;
+    margin-left: 450px;
+    width: 400px;
+    height: 40px;
+}
+
+/* Cards das plataformas */
+.cardzinhos{
+    float: left;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 50px;
+}
 .card{
     float: left;
     text-align: center;
@@ -7,11 +156,11 @@
     color:white;
     border-width: 2px;
 }
-.conteudo{
-    text-align: center;
-	padding-top: 10px;
-	padding-right: 10px;
+.card-title{
+    font-size: medium;
 }
+
+/* Botao dos Cards */
 .botao{
     background-color:#de3163;
     color: white;
@@ -20,81 +169,13 @@
     padding:8px;
     width: 5rem;
 }
-nav ul .bot:hover{ /* config mouse sobre */
-	background-color: rgba(255,255,255,0.2);
-    border-radius: 8px;
-}
-.btnn{
-    background-color:#c95979;
-    color: white;
-    border-color: #f18094;
-    border-radius: 5px;
-    padding:6px;
-    width: 5rem;
-    margin-right: 30px;
-    margin-left: 120px;
-}
 
-
-.card2{
-    float: left;
-    text-align: center;;
-    border-width: 5px;
-    border-style: dashed;
-    border-color: #c95979;
-    background-color: black;
-    color: white;
-    border-radius: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.card3{
-    float: left;
-    text-align: center;
-    border-width: 5px;
-    border-style: dashed;
-    border-color: #c95979;
-    background-color: black;
-    color: white;
-    border-radius: 10px;
-    padding-top: 5px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-aside{
-	width: 350px;
-	height: 290px;
-	float: left;
-    margin-left: 20px;
-	margin-right: 29px;
-    margin-top: 20px;
-}
-article{
-	width: 900px;
-	height: 300px;
-	float: left;
-    margin-top: 20px;
-}
-.destaque{
-    align-items: center;
-	width: 1100px;
-	height: 300px;
-    margin-top: 20px;
-    margin-left: 100px;
-}
-.cardzinhos{
-    float: left;
-    margin-top: 10px;
-    align-items: center;
-    margin-left: 60px;
-}
+/* Videos */
 .video{
     float: left;
     margin-top: 40px;
     margin-left: 50px;
 }
-
 .gamepgta{
     float: left;
     text-align: center;
@@ -122,7 +203,7 @@ article{
     text-align: center;
     background-color: black;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -130,7 +211,7 @@ article{
     text-align: center;
     background-color: black;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -138,47 +219,32 @@ article{
     text-align: center;
     background-color: black;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.card-title{
-    font-size: medium;
+
+/* Gif Mario */
+aside{
+	width: 300px;
+	height: 290px;
+	float: left;
+    margin-left: 33px;
+	margin-right: 29px;
+    margin-top: 20px;
 }
-.plataform{
-    margin-top: 10px;
-    float: left;
-    margin-left: 200px;
-    align-items: center;
-}
-audio{
-    float: left;
-    margin-top: 50px;
-    margin-left: 400px;
-    width: 400px;
-    height: 40px;
-}
-.logotipo{
-    margin-left: 10px;
-    float: left;
-}
-.textlogo{
-    float: left;
-    color:#c95979;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-footer{
-    float: left;
-    margin-left: 540px;
-    margin-top: 50px;
-    color: white;
-    text-align: center;
-    font-size: medium;
-    font-weight: bolder;
-    clear: both;
+.gifmario{
+    margin-left: 30px;
+    margin-top: 35px;
 }
 
+/* Noticias */
+article{
+	width: 900px;
+	height: 300px;
+	float: left;
+    margin-top: 20px;
+}
 .list-group-item{
     border-radius: 10px;
     border-color: rebeccapurple;
@@ -196,13 +262,30 @@ footer{
     padding-bottom: 5px;
     border-color: rebeccapurple;
 }
-.gifmario{
-    margin-left: 70px;
-    margin-top: 25px;
+
+/* Footer */
+footer{
+    float: left;
+    margin-left: 540px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    clear: both;
 }
 
-/** Pagina PS1 **/
+/* ==================================== BUSCA POR JOGOS VISITANTE ==================================== */
 
+/* Banner */
+.destaquebusca{
+    align-items: center;
+	width: 800px;
+	height: 300px;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+/* Busca */
 .buscando{
     float: left;
     text-align: center;
@@ -211,17 +294,10 @@ footer{
     background-color: black;
     color: white;
     border-radius: 10px;
-    padding-top: 5px;
+    padding-top: 10px;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
-}
-.destaquebusca{
-    align-items: center;
-	width: 800px;
-	height: 300px;
-    margin-top: 10px;
-    margin-left: 300px;
 }
 .botoes{
     background-color:#c95979;
@@ -232,23 +308,14 @@ footer{
     width: 5rem;
 }
 
-.botaoalterar{
-    background-color:#c95979;
-    color: white;
-    border-color: #f18094;
-    border-radius: 5px;
-    padding:8px;
-    width: 5rem;
-}
-
-/** Cadastros **/
-
+/* Cadastros */
 .form-label{
     color: white;
     font-size: large;
     font-style: bolder;
 }
 
+/* Tabela do Banco de dados*/
 table{
     background-color: white;
     margin-top: 30px;
@@ -258,6 +325,16 @@ table{
 th{
     color:#c95979;
 }
+.botaoalterar{
+    background-color:#c95979;
+    color: white;
+    border-color: #f18094;
+    border-radius: 5px;
+    padding:8px;
+    width: 5rem;
+}
+
+/* Formulário de Login */
 #formlogin{
     color: white;
     margin-top: 200px;
@@ -275,6 +352,15 @@ th{
     margin-top: 150px;
     color: white;
 }
-header{
-    width: 1349px;
+
+/* Logotipo Funcionário */
+.logotipofun{
+    float: left;
+}
+
+/* Banner */
+#banner_img{
+	width: 1100px;
+	height: 300px;
+	float: left;
 }

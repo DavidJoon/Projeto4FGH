@@ -15,62 +15,46 @@
 <body background="img/orion.jpg">
   <!--Nav-->
   <header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <li class="navbar-nav mr-auto">
-      <a href="index.php"><img class="logotipo" src="img/logo.png" width="50px"></a>
-        <h5 class="textlogo">4F GAMING HOUSE</h5>
-      </li>
-      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-        <li class="bot">
-          <a class="nav-link active" aria-current="page" href="#">NOVIDADES</a>
-        </li>
-        <li class="bot">
-          <a class="nav-link active" aria-current="page" href="#">GALERIA</a>
-        </li>
-        <li class="bot">
-          <a class="nav-link active" aria-current="page" href="#">CURIOSIDADES</a>
-        </li>
-        <li class="bot">
-          <a class="nav-link active" aria-current="page" href="#">HUMOR</a>
-        </li>
-      </ul>
-
-      <li class="navbar-nav mr-auto">
-      <a href="acessofun.php"><button class="btnn" type="submit">Logar</button></a>
-      </li>
-    </div>
-    </div>
-  </nav>
+    <a href="index.php"><img class="logotipo" src="img/logo.png" width="50px"></a>
+    <h5 class="textlogo">4F GAMING HOUSE</h5>
+      <nav class="nvprincipal">
+		  	<ul class="ulprincipal">
+				  <a href="#index.php"><li class="bot">HOME</li></a>
+				  <a href="#"><li class="bot">NOVIDADES</li></a>
+				  <a href="#"><li class="bot">GALERIA</li></a>
+				  <a href="#"><li class="bot">CURIOSIDADES</li></a>
+			  </ul>
+      </nav>
+    <div class="botaologar"><a href="acessofun.php"><button class="btnn" type="submit">Logar</button></a></div>
   </header>
-  <!--Texto-->
+
 <!--Destaque-->
 <section class="destaquebusca">
 <img src="img/bannerpc.jpg">
 </section>
-  <!--Inicio dos Cards-->
+
+  <!--Barra de pesquisa-->
   <section>
-  <div class="d-flex justify-content-center">
-    <div class="buscando">
-      <div class="card-body">
-      <h5 class="card-title">Pesquise pelo nome de um jogo</h5>
+    <div class="d-flex justify-content-center">
+      <div class="buscando">
+        <div class="card-body">
+        <h5 class="card-title">Pesquise pelo nome de um jogo</h5>
+        </div>
       </div>
     </div>
-  </div>
   </section>
-  <div class="container">
-    <form action="" method="post" class="row g-3">
-
+  
+    <div class="container">
+      <form action="" method="post" class="row g-3">
         <div class="col-12">
-            <input type="text" class="form-control" name="jogo">
+          <input type="text" class="form-control" name="jogo">
         </div>
-
         <div class="col-12">
-        <button type="submit" class="botoes"> Localizar </button>
+          <button type="submit" class="botoes"> Localizar </button>
         </div>
+      </form>
+    </div>
 
-    </form>
-  </div>
   <!--FOOTER-->
   <footer>
     <p class="direitos"> © 2021 Direitos autorais reservados.</p>
