@@ -52,7 +52,7 @@ $jogo = mysqli_fetch_assoc($resul);
     </div>
 
     <div class="col-12">
-      <button type="submit" class="btn btn-primary">Alterar</button>
+      <button type="submit" class="btn btn-success">Alterar</button>
     </div>
 
 </div>

@@ -38,7 +38,7 @@ include("header.php");
   </div>
 
   <div class="col-12">
-    <button type="submit" class="btn btn-primary">Cadastro</button>
+    <button type="submit" class="btn btn-info">Cadastro</button>
   </div>
 
 </form>

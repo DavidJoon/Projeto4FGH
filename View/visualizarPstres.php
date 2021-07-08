@@ -15,7 +15,7 @@ include_once("../Model/conexao.php");
         </div>
 
         <div class="col-12">
-            <button type="submit" class="btn btn-primary"> Localizar </button>
+        <button type="submit" class="botoes"> Localizar </button>
         </div>
 
     </form>
@@ -50,7 +50,7 @@ foreach($dado as $dados) :
       <td><img src="<?=$dados["capapstres"]?>" height="250" width="200" ></td>
       <td><?=$dados["sinpstres"]?></td>
       <td>
-      <a class="btn btn-primary" href="alterarJogopstres.php?codigo=<?=$dados["codpstres"]?>">Alterar</a>
+      <a class="btn btn-secondary" href="alterarJogopstres.php?codigo=<?=$dados["codpstres"]?>">Alterar</a>
       </td>
       <td>
       <form action="../Controller/deletePstres.php" method="Post">

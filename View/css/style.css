@@ -1,0 +1,280 @@
+.card{
+    float: left;
+    text-align: center;
+    margin: 20px;
+    background-color: #1C1C1C;
+    border-color: #f18094;
+    color:white;
+    border-width: 2px;
+}
+.conteudo{
+    text-align: center;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.botao{
+    background-color:#de3163;
+    color: white;
+    border-color: #f18094;
+    border-radius: 5px;
+    padding:8px;
+    width: 5rem;
+}
+nav ul .bot:hover{ /* config mouse sobre */
+	background-color: rgba(255,255,255,0.2);
+    border-radius: 8px;
+}
+.btnn{
+    background-color:#c95979;
+    color: white;
+    border-color: #f18094;
+    border-radius: 5px;
+    padding:6px;
+    width: 5rem;
+    margin-right: 30px;
+    margin-left: 120px;
+}
+
+
+.card2{
+    float: left;
+    text-align: center;;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: #c95979;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card3{
+    float: left;
+    text-align: center;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: #c95979;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside{
+	width: 350px;
+	height: 290px;
+	float: left;
+    margin-left: 20px;
+	margin-right: 29px;
+    margin-top: 20px;
+}
+article{
+	width: 900px;
+	height: 300px;
+	float: left;
+    margin-top: 20px;
+}
+.destaque{
+    align-items: center;
+	width: 1100px;
+	height: 300px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.cardzinhos{
+    float: left;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 60px;
+}
+.video{
+    float: left;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.gamepgta{
+    float: left;
+    text-align: center;
+    border-color: #f18094;
+    color:white;
+    border-width: 2px;
+}
+.gamephalo{
+    float: left;
+    text-align: center;
+    border-color: #f18094;
+    color:white;
+    border-width: 2px;
+    margin-left: 10px;
+}
+.gameppes{
+    float: left;
+    text-align: center;
+    border-color: #f18094;
+    color:white;
+    border-width: 2px;
+    margin-left: 10px;
+}
+.cardtpes{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.cardtgta{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.cardthalo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.card-title{
+    font-size: medium;
+}
+.plataform{
+    margin-top: 10px;
+    float: left;
+    margin-left: 200px;
+    align-items: center;
+}
+audio{
+    float: left;
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 400px;
+    height: 40px;
+}
+.logotipo{
+    margin-left: 10px;
+    float: left;
+}
+.textlogo{
+    float: left;
+    color:#c95979;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+footer{
+    float: left;
+    margin-left: 540px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    clear: both;
+}
+
+.list-group-item{
+    border-radius: 10px;
+    border-color: rebeccapurple;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+.news{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: rebeccapurple;
+}
+.gifmario{
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+/** Pagina PS1 **/
+
+.buscando{
+    float: left;
+    text-align: center;
+    border-width: 5px;
+    border-color: #c95979;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.destaquebusca{
+    align-items: center;
+	width: 800px;
+	height: 300px;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+.botoes{
+    background-color:#c95979;
+    color: white;
+    border-color: #f18094;
+    border-radius: 5px;
+    padding:8px;
+    width: 5rem;
+}
+
+.botaoalterar{
+    background-color:#c95979;
+    color: white;
+    border-color: #f18094;
+    border-radius: 5px;
+    padding:8px;
+    width: 5rem;
+}
+
+/** Cadastros **/
+
+.form-label{
+    color: white;
+    font-size: large;
+    font-style: bolder;
+}
+
+table{
+    background-color: white;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+th{
+    color:#c95979;
+}
+#formlogin{
+    color: white;
+    margin-top: 200px;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+#formEsqueceusenha{
+    margin-left: 180px;
+    color: white;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+.textesqueci{
+    margin-left: 330px;
+    margin-top: 150px;
+    color: white;
+}
+header{
+    width: 1349px;
+}
