@@ -7,17 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
+  <link rel="icon" type="text/css" href="img/logo.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <script type="text/javascript" src="js/banner.js"></script>
   <title>Jogos Playstation</title>
 </head>
 
 <body background="img/orion.jpg">
   <!--Nav-->
   <header>
-    <a href="index.php"><img class="logotipo" src="img/logo.png" width="50px"></a>
-    <h5 class="textlogo">4F GAMING HOUSE</h5>
+    <a href="index.php"><img class="logotipo" alt="Logo" title="Logo" src="img/logo.png" width="50px"></a>
+    <h5 class="textlogo" alt="4F Gaming House" title="4F Gaming House">4F GAMING HOUSE</h5>
       <nav class="nvprincipal">
 		  	<ul class="ulprincipal">
 				  <a href="#index.php"><li class="bot">HOME</li></a>
@@ -30,7 +30,7 @@
   </header>
   
   <section class="destaquebusca">
-<img src="img/bannerps1.jpg">
+<img src="img/bannerps1.jpg" alt="Banner Jogos PS1" title="Banner Jogos PS1">
 </section>
 
   <!--Barra de pesquisa-->
@@ -38,7 +38,7 @@
     <div class="d-flex justify-content-center">
       <div class="buscando">
         <div class="card-body">
-        <h5 class="card-title">Pesquise pelo nome de um jogo</h5>
+        <h5 class="card-title" alt="Pesquise abaixo" title="Pesquise abaixo">Pesquise pelo nome de um jogo</h5>
         </div>
       </div>
     </div>
@@ -57,7 +57,7 @@
 
   <!--FOOTER-->
   <footer>
-    <p class="direitos"> © 2021 Direitos autorais reservados.</p>
+    <p class="direitos" alt="Direitos autorais" title="Direitos autorais"> © 2021 Direitos autorais reservados.</p>
   </footer>
   <!-- Optional JavaScript; choose one of the two! -->
 
