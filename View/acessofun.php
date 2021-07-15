@@ -8,7 +8,21 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Acesso ao sistema de funcionários</title>
 </head>
+
 <body background="img/orion.jpg">
+
+<header>
+    <a href="index.php"><img class="logotipo" alt="Logo" title="Logo" src="img/logo.jpeg" width="50px"></a>
+    <h5 class="textlogo"  alt="Calango Gaming" title="Calango Gaming" >CALANGO GAMING</h5>
+      <nav class="nvprincipal">
+		  	<ul class="ulprincipal">
+				  <a href="index.php"><li class="bot">HOME</li></a>
+				  <a href="novidades.php"><li class="bot">NOVIDADES</li></a>
+				  <a href="galeria.php"><li class="bot">GALERIA</li></a>
+				  <a href="curiosidades.php"><li class="bot">CURIOSIDADES</li></a>
+			  </ul>
+      </nav>
+  </header>
 
 <div class="container">
 
@@ -36,5 +50,6 @@ echo($msg);
 </form>
 
 </div>
+
 </body>
 </html>

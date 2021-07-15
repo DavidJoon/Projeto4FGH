@@ -6,7 +6,7 @@ include_once("../Model/bancoAtari.php");
 include_once("../Model/conexao.php");
 //echo("<script> alert('Oi, tudo bem?.');</script>");
 ?>
-<div class="container">
+<div class="container mt-4">
     <form action="" method="post" class="row g-3">
 
         <div class="col-12">
@@ -19,6 +19,14 @@ include_once("../Model/conexao.php");
         </div>
 
     </form>
+    
+<?php 
+$jogo = isset($_POST["jogo"]) ? $_POST["jogo"]:"";
+if(!$jogo){
+}else{
+$dado = visuNomeAtari($conexao, $jogo); 
+foreach($dado as $dados) :
+?>
 
     <table class="table table-striped">
   <thead>
@@ -35,12 +43,7 @@ include_once("../Model/conexao.php");
     </tr>
   </thead>
   <tbody>
-  <?php 
-  $jogo = isset($_POST["jogo"]) ? $_POST["jogo"]:"";
-$dado = visuNomeAtari($conexao, $jogo); 
 
-foreach($dado as $dados) :
-?>
     <tr>
     <th scope="row"><?=$dados["codatari"]?></th>
       <td><?=$dados["nomeatari"]?></td>
@@ -63,6 +66,7 @@ foreach($dado as $dados) :
     </tr>
 <?php
 endforeach;
+}
 ?>
 
   </tbody>

@@ -1,5 +1,10 @@
+<?php
+include_once("../Model/bancoXboxone.php");
+include_once("../Model/conexao.php");
+?>
+
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <!-- Required meta tags -->
@@ -7,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
-  <link rel="icon" type="text/css" href="img/logo.png">
+  <link rel="icon" type="text/css" href="img/logo.jpeg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <title>Jogos Xbox One</title>
@@ -16,14 +21,14 @@
 <body background="img/orion.jpg">
   <!--Nav-->
   <header>
-    <a href="index.php"><img class="logotipo" alt="Logo" title="Logo" src="img/logo.png" width="50px"></a>
-    <h5 class="textlogo" alt="4F Gaming House" title="4F Gaming House">4F GAMING HOUSE</h5>
+    <a href="index.php"><img class="logotipo" alt="Logo" title="Logo" src="img/logo.jpeg" width="50px"></a>
+    <h5 class="textlogo"  alt="Calango Gaming" title="Calango Gaming" >CALANGO GAMING</h5>
       <nav class="nvprincipal">
 		  	<ul class="ulprincipal">
-				  <a href="#index.php"><li class="bot">HOME</li></a>
-				  <a href="#"><li class="bot">NOVIDADES</li></a>
-				  <a href="#"><li class="bot">GALERIA</li></a>
-				  <a href="#"><li class="bot">CURIOSIDADES</li></a>
+				  <a href="index.php"><li class="bot">HOME</li></a>
+				  <a href="novidades.php"><li class="bot">NOVIDADES</li></a>
+				  <a href="galeria.php"><li class="bot">GALERIA</li></a>
+				  <a href="curiosidades.php"><li class="bot">CURIOSIDADES</li></a>
 			  </ul>
       </nav>
     <div class="botaologar"><a href="acessofun.php"><button class="btnn" type="submit">Logar</button></a></div>
@@ -48,7 +53,7 @@
     <div class="container">
       <form action="" method="post" class="row g-3">
         <div class="col-12">
-          <input type="text" class="form-control" name="jogo">
+          <input type="text" placeholder="Digite aqui" class="form-control" name="jogo">
         </div>
         <div class="col-12">
           <button type="submit" class="botoes"> Localizar </button>
@@ -56,21 +61,53 @@
       </form>
     </div>
 
-  <!--FOOTER-->
+<?php 
+$jogo = isset($_POST["jogo"]) ? $_POST["jogo"]:"";
+if(!$jogo){
+}else{
+$dado = visuNomeXboxone($conexao, $jogo); 
+foreach($dado as $dados) :
+?>
+
+  <div class="tabgame">
+  <table class="table table-striped">
+    <thead class="fundotabgame">
+      <tr>
+        <th class="cortabxboxone" scope="col">Capa</th>
+        <th class="cortabxboxone" scope="col">Jogo</th>
+        <th class="cortabxboxone" scope="col">Data</th>
+        <th class="cortabxboxone" scope="col">Gênero</th>
+        <th class="cortabxboxone" scope="col">Desenvovedora</th>
+        <th class="cortabxboxone" scope="col">Resumo</th>
+      </tr>
+    </thead>
+    
+    <tbody>
+    <tr>
+      <td><img src="<?=$dados["capaxboxone"]?>" height="250" width="200"></td>
+      <td class="namegame"><?=$dados["nomexboxone"]?></td>
+      <td class="datagame"><?=$dados["dataxboxone"]?></td>
+      <td class="gengame"><?=$dados["generoxboxone"]?></td>
+      <td class="desengame"><?=$dados["desenxboxone"]?></td>
+      <td class="singame"><?=$dados["sinxone"]?></td>
+    </tr>
+
+<?php
+endforeach;
+}
+?>
+
+    </tbody>
+  </table>
+  </div>
   <!--FOOTER-->
   <footer>
+    <a href="https://github.com/DavidJoon" target="blanck"><img src="img/git.png"  widht="40" height="40" class="git" alt="Link Github" title="Rede Social Github"></a> <!-- Icone Link Github -->
     <p class="direitos" alt="Direitos autorais" title="Direitos autorais"> © 2021 Direitos autorais reservados.</p>
   </footer>
-  <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    -->
 </body>
-
 </html>

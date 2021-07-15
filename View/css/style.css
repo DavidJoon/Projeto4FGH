@@ -4,33 +4,33 @@
 	margin: 0px; /* margem externa da página zerada */
 	padding: 0px; /*margem interna da página zerada */
 }
-body{
-    width: 1349px;
-}
 
 /* Logo e Nome do Site */
 .logotipo{
+    border-radius: 10px;
     margin-top: 5px;
     float: left;
     margin-left: 10px;
 }
 .textlogo{
+    text-shadow: 1px 1px whitesmoke;
+    font-style: oblique;
+    border-radius: 20px;
     float: left;
-    color:#c95979;
+    color:whitesmoke;
     margin-left: 10px;
     margin-top: 14px;
 }
 
 /* Menu Inicial */
 header{
-    width: 1349px;
     height: 55px;
 }
 .botaologar{
     width: 90px;
     height: 55px;
     float: left;
-    margin-left: 350px;
+    margin-left: 330px;
 }
 /* Navbar */
 .nvprincipal{ /* Estilo da barra de navegação */
@@ -38,23 +38,23 @@ header{
     margin-top: 10px;
     height: 45px;
 	font-size: 18px; /* Tamanho da fonte */
-    margin-left: 130px;
+    margin-left: 150px;
     width: 500px;
 }
 .ulprincipal{/* Estilo da lista*/
 	list-style-type: none;
 } 
 .bot{
+    border-radius: 8px;
     font-family: Arial, Helvetica, sans-serif;
 	float: left; /* Configurar o menu para horizontal*/
 	margin-left: 16px;
- /* margem interna cima/baixo 5px e dir/esq 10px*/
 	color: white; /* cor das palavras do menu*/
 	font-weight: bold; /* fonte em negrito */
 	line-height: 2.2;
 }
 .ulprincipal .bot:hover{ /* config mouse sobre */
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(255,255,255,0.2); 
 }
 
 /* Botão Logar e outros */
@@ -93,7 +93,7 @@ main{
     background-color: black;
     color: white;
     width: 700px;
-    margin-left: 300px;
+    margin-left: 310px;
     padding-top: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -106,7 +106,7 @@ main{
 	width: 1100px;
 	height: 300px;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 110px;
 }
 
 /* Plataforma e Audio */
@@ -129,10 +129,10 @@ main{
     height: 50px;
     width: 130px;
     float: left;
-    margin-left: 180px;
+    margin-left: 200px;
     margin-top: 15px;
 }
-audio{
+.homepaudio{
     float: left;
     margin-top: 20px;
     margin-left: 450px;
@@ -145,7 +145,7 @@ audio{
     float: left;
     margin-top: 10px;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 5%;
 }
 .card{
     float: left;
@@ -174,7 +174,7 @@ audio{
 .video{
     float: left;
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 55px;
 }
 .gamepgta{
     float: left;
@@ -225,11 +225,11 @@ audio{
 }
 
 /* Gif Mario */
-aside{
+.gifprincipalmario{
 	width: 300px;
 	height: 290px;
 	float: left;
-    margin-left: 33px;
+    margin-left: 38px;
 	margin-right: 29px;
     margin-top: 20px;
 }
@@ -274,8 +274,18 @@ footer{
     font-weight: bolder;
     clear: both;
 }
+.git{
+    border-radius: 8px;
+    margin-left: 20px;
+    float: left;
+}
+.direitos{
+    margin-left: 30px;
+    margin-top: 15px;
+    float: left;
+}
 
-/* ==================================== BUSCA POR JOGOS VISITANTE ==================================== */
+/* ==================================== Busca por jogos visitante ==================================== */
 
 /* Banner */
 .destaquebusca{
@@ -308,19 +318,39 @@ footer{
     width: 5rem;
 }
 
-/* Cadastros */
-.form-label{
-    color: white;
-    font-size: large;
-    font-style: bolder;
+/* ==================================== Página Funcionário ==================================== */
+
+/* Navbar Funcionário */
+.logotipof{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.nav-item{
+    font-style: oblique;
+    margin-left: 20px;
+}
+.areaf{
+background-color: rgba(255, 255, 255, 0.822);
 }
 
-/* Tabela do Banco de dados*/
+/* Cadastros */
+
+.form-label{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+/* Tabela do Banco de dados */
 table{
+    font-weight: bolder;
+    color: black;
+    font-size: large;
     background-color: white;
     margin-top: 30px;
     text-align: center;
     border-radius: 20px;
+    font-style: oblique;
 }
 th{
     color:#c95979;
@@ -332,6 +362,79 @@ th{
     border-radius: 5px;
     padding:8px;
     width: 5rem;
+}
+
+/* Tabelas das plataformas */
+.namegame{
+    width: 20%;
+}
+.datagame{
+    width: 10%;
+}
+.gengame{
+    width: 10%;
+}
+.desengame{
+    width: 20%;
+}
+.singame{
+    width: 40%;
+}
+.cortabpsum{
+    color: rgb(235, 66, 15);
+    text-shadow: 2px 2px black;
+}
+.cortabpsdois{
+    color: rgb(179, 85, 202);
+    text-shadow: 2px 2px black;
+}
+.cortabpstres{
+    color: rgb(52, 112, 97);
+    text-shadow: 2px 2px black;
+}
+.cortabpsquatro{
+    color: rgb(67, 80, 150);
+    text-shadow: 2px 2px black;
+}
+.cortabpscinco{
+    color: rgb(6, 139, 24);
+    text-shadow: 2px 2px black;
+}
+.cortabxbox{
+    color: rgb(180, 24, 71);
+    text-shadow: 2px 2px black;
+}
+.cortabxboxdois{
+    color: rgb(143, 194, 25);
+    text-shadow: 2px 2px black;
+}
+.cortabxboxone{
+    color: rgb(145, 207, 236);
+    text-shadow: 2px 2px black;
+}
+.cortabxboxseries{
+    color: rgb(102, 56, 129);
+    text-shadow: 2px 2px black;
+}
+.cortabpc{
+    color: rgb(124, 62, 34);
+    text-shadow: 2px 2px black
+}
+.cortabmega{
+    color: rgb(180, 136, 24);
+    text-shadow: 2px 2px black;
+}
+.cortabatari{
+    color: #970404;
+    text-shadow: 2px 2px black;
+}
+.tabgame{
+    margin-left: 5%;
+    width: 90%;
+}
+.fundotabgame{
+    border-radius: 30%;
+    background-color: black
 }
 
 /* Formulário de Login */
@@ -363,4 +466,662 @@ th{
 	width: 1100px;
 	height: 300px;
 	float: left;
+}
+
+/* ==================================== Curiosidades ==================================== */
+
+.contcuri{
+    background-color: black;
+    width: 90%;
+    margin-left: 5%;
+}
+.conteudocuri{
+    margin-top: 20px;
+    float: left;
+}
+.mrtext{
+    width: 100%;
+    float: left;
+    font-style: oblique;
+}
+.figurcuri{
+    margin-top: 3px;
+    margin-left: 6px;
+    float: left;
+}
+.arredondar{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+/* Logo Minecraft e Gif Pac-Man */
+.pac{
+    margin-left: 98px;
+    border-radius: 10px;
+}
+
+/* Audio Master Chief */
+.mc{
+    margin-left: 210px;
+    border: 4px 4px black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+/* Letreiro e Gif Mario 64 */
+.splet{
+    margin-left: 100px;
+}
+.mariog{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+/* Awp Red Line  */
+.redl{
+    margin-left: 280px;
+}
+
+/* Titulos curiosidades */
+.titulocuri{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 110px;
+    background-color: whitesmoke;
+    float: left;
+    color: black;
+    font-style: oblique;
+}
+.titulocuri2{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 230px;
+    background-color: whitesmoke;
+    float: left;
+    color: black;
+    font-style: oblique;
+}
+.titulocuri3{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 170px;
+    background-color: whitesmoke;
+    float: left;
+    color: black;
+    font-style: oblique;
+}
+.titulocuri4{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+    background-color: whitesmoke;
+    float: left;
+    color: black;
+    font-style: oblique;
+}
+.titulocuri5{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 90px;
+    background-color: whitesmoke;
+    float: left;
+    color: black;
+    font-style: oblique;
+}
+.titulocuri6{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 200px;
+    background-color: whitesmoke;
+    float: left;
+    color: black;
+    font-style: oblique;
+}
+.titulocuri7{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 160px;
+    background-color: whitesmoke;
+    float: left;
+    color: black;
+    font-style: oblique;
+}
+.titulocuri8{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 280px;
+    background-color: whitesmoke;
+    float: left;
+    color: black;
+    font-style: oblique;
+}
+.titulocuri9{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 150px;
+    background-color: whitesmoke;
+    float: left;
+    color: black;
+    font-style: oblique;
+}
+.titulocuri10{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 90px;
+    background-color: whitesmoke;
+    float: left;
+    color: black;
+    font-style: oblique;
+}
+
+/* Textos curiosidades */
+.descricuri{
+    padding-right: 15px;
+    padding-left: 18px;
+    padding-top: 10px;
+    text-align:unset;
+    margin-top: 3px;
+    margin-left: 8px;
+    width: 750px;
+    height: 225px;
+    float: left;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.descricuri2{
+    padding-right: 15px;
+    padding-left: 18px;
+    padding-top: 5px;
+    text-align:unset;
+    margin-top: 3px;
+    margin-left: 8px;
+    width: 750px;
+    height: 225px;
+    float: left;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.descricuri3{
+    padding-right: 15px;
+    padding-left: 18px;
+    padding-top: 10px;
+    text-align:unset;
+    margin-top: 3px;
+    margin-left: 8px;
+    width: 750px;
+    height: 225px;
+    float: left;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.descricuri4{
+    padding-right: 15px;
+    padding-left: 18px;
+    padding-top: 5px;
+    text-align:unset;
+    margin-top: 3px;
+    margin-left: 8px;
+    width: 750px;
+    height: 225px;
+    float: left;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.descricuri5{
+    padding-right: 15px;
+    padding-left: 18px;
+    padding-top: 5px;
+    text-align:unset;
+    margin-top: 3px;
+    margin-left: 8px;
+    width: 750px;
+    height: 225px;
+    float: left;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.descricuri6{
+    padding-right: 15px;
+    padding-left: 18px;
+    padding-top: 5px;
+    text-align:unset;
+    margin-top: 3px;
+    margin-left: 8px;
+    width: 750px;
+    height: 225px;
+    float: left;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.descricuri7{
+    padding-right: 15px;
+    padding-left: 18px;
+    padding-top: 3px;
+    text-align:unset;
+    margin-top: 3px;
+    margin-left: 8px;
+    width: 750px;
+    height: 225px;
+    float: left;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.descricuri8{
+    padding-right: 15px;
+    padding-left: 18px;
+    padding-top: 3px;
+    text-align:unset;
+    margin-top: 3px;
+    margin-left: 8px;
+    width: 750px;
+    height: 225px;
+    float: left;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.descricuri9{
+    padding-right: 15px;
+    padding-left: 18px;
+    padding-top: 3px;
+    text-align:unset;
+    margin-top: 3px;
+    margin-left: 8px;
+    width: 750px;
+    height: 225px;
+    float: left;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.descricuri10{
+    padding-right: 15px;
+    padding-left: 18px;
+    padding-top: 3px;
+    text-align:unset;
+    margin-top: 3px;
+    margin-left: 8px;
+    width: 750px;
+    height: 225px;
+    float: left;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+/* ==================================== Novidades ==================================== */
+
+/* Main Novidades */
+.mnovidades{
+    margin-top: 30px;
+    width: 96%;
+    margin-left: 2%;
+}
+
+/* Section Novidades */
+.snovidades{
+    float: left;
+    width: 800px;
+}
+
+/* Div Novidades */
+.nov{
+    float: left;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    height: 210px;
+    width: 800px;
+}
+
+/* Aside Novidades */
+.anovidades{
+    margin-left: 35px;
+    float: left;
+    width: 450px;
+}
+
+/* Figuras Novidades */
+.figurnovi{float: left;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+.figurnovi2{float: left;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+/* Titulo Novidades */
+.tagnov{
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    float: left;
+}
+
+/* Noticias */
+.manchetenov{
+    color: #bb4e6d;
+    margin-left: 10px;
+    float: left;
+    margin-top: 15px;
+    width: 420px;
+    height: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.datnov{
+    color: gray;
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    float: left;
+}
+
+/* Ver Mais */
+.vermais{
+        text-align: center;
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        background-color: whitesmoke;
+        border-radius: 15px;
+        height: 40px;
+        width: 800px;
+}
+.verm{
+    margin-top: 10px;
+    color: #bb4e6d;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tabela CS GO */
+.tabcs{
+    width: 450px;
+    height: 240px;
+    float: left;
+}
+.ilm{
+    margin-bottom: 3px;
+    border-radius: 10px;
+    float: left;
+}
+.ilmm{
+    border-radius: 10px;
+    margin-left: 2px;
+}
+
+/* Tabela Promoção */
+.tabpromos{
+    margin-top: 5px;
+    float: left;
+    height: 700px;
+}
+.titpromo{
+    margin-top: 10px;
+    margin-left: 130px;
+    border-radius: 10px;
+    font-style: oblique;
+    width: 200px;
+    background-color: whitesmoke;
+    border: 2px 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    color: #bb4e6d;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tabela E3 */
+.tabe3{
+    float: left;
+    margin-top: 10px;
+}
+.tite3{
+    float: left;
+    margin-top: 10px;
+    margin-left: 80px;
+    border-radius: 10px;
+    font-style: oblique;
+    width: 300px;
+    background-color: whitesmoke;
+    border: 2px 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    color: #bb4e6d;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tabela Parceiros */
+.recom{
+    float: left;
+    margin-top: 5px;
+}
+.titrecom{
+    margin-top: 5px;
+    font-style: oblique;
+    float: left;
+    border-radius: 10px;
+    margin-left: 130px;
+    border: 2px 2px;
+    width: 200px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    color: #bb4e6d;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+/* ==================================== Galeria ==================================== */
+
+/* Main Galeria */
+.mgaleria{
+    height: 1600px;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+/* Section Galeria */
+.cardgen{
+    border-style:solid;
+    border-width: 1px 1px rgb(138, 137, 137);
+    border-radius: 20px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+/* Cards Galeria */
+.cardfran{
+    float: left;
+    margin-left: 23px;
+    border-radius: 5px;
+    width: 214px;
+    height: 355px;
+}
+.card-bodyy{
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+    width: 214px;
+}
+.card-img-topp{
+    border-radius: 5px;
+    width: 214px;
+    height: 310px;
+    float: left;
+}
+
+/* Nomes Franquias */
+.card-terror{
+    color: rgb(206, 65, 65);
+    text-shadow:1px 1px whitesmoke;
+}
+.card-luta{
+    color: rgb(86, 223, 179);
+    text-shadow:1px 1px whitesmoke;
+}
+.card-corrida{
+    color: rgb(25, 181, 253);
+    text-shadow:1px 1px whitesmoke;
+}
+.card-acao{
+    color: rgb(236, 138, 9);
+    text-shadow:1px 1px whitesmoke;
+}
+
+/* Gêneros */
+.gengamet{
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: rgb(206, 65, 65);
+    text-shadow:1px 1px rgb(206, 65, 65);
+    margin-left: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gengamel{
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: rgb(86, 223, 179);
+    text-shadow:1px 1px rgb(86, 223, 179);
+    margin-left: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gengamec{
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: rgb(25, 181, 253);
+    text-shadow:1px 1px rgb(25, 181, 253);
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gengamea{
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: rgb(236, 138, 9);
+    text-shadow:1px 1px rgb(236, 138, 9);
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
 }

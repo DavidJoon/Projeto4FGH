@@ -6,7 +6,7 @@ include_once("../Model/bancoPscinco.php");
 include_once("../Model/conexao.php");
 //echo("<script> alert('Oi, tudo bem?.');</script>");
 ?>
-<div class="container">
+<div class="container mt-4">
     <form action="" method="post" class="row g-3">
 
         <div class="col-12">
@@ -19,6 +19,14 @@ include_once("../Model/conexao.php");
         </div>
 
     </form>
+
+<?php
+$jogo = isset($_POST["jogo"]) ? $_POST["jogo"]:"";
+if(!$jogo){
+}else{
+$dado = visuNomePscinco($conexao, $jogo); 
+foreach($dado as $dados) :
+?>
 
     <table class="table table-striped">
   <thead>
@@ -34,13 +42,9 @@ include_once("../Model/conexao.php");
       <th scope="col">Apagar</th>
     </tr>
   </thead>
-  <tbody>
-  <?php 
-  $jogo = isset($_POST["jogo"]) ? $_POST["jogo"]:"";
-$dado = visuNomePscinco($conexao, $jogo); 
 
-foreach($dado as $dados) :
-?>
+  <tbody>
+
     <tr>
     <th scope="row"><?=$dados["codpscinco"]?></th>
       <td><?=$dados["nomepscinco"]?></td>
@@ -63,6 +67,7 @@ foreach($dado as $dados) :
     </tr>
 <?php
 endforeach;
+}
 ?>
 
   </tbody>

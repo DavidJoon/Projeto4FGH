@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="text/css" href="img/logo.jpeg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Esqueci a Senha</title>
 </head>
+<header>
+    <a href="index.php"><img class="logotipo" alt="Logo" title="Logo" src="img/logo.jpeg" width="50px"></a>
+    <h5 class="textlogo" alt="Calango Gaming" title="Calango Gaming" >CALANGO GAMING</h5>
+      <nav class="nvprincipal">
+		  	<ul class="ulprincipal">
+				  <a href="index.php"><li class="bot">HOME</li></a>
+				  <a href="novidades.php"><li class="bot">NOVIDADES</li></a>
+				  <a href="galeria.php"><li class="bot">GALERIA</li></a>
+				  <a href="curiosidades.php"><li class="bot">CURIOSIDADES</li></a>
+			  </ul>
+      </nav>
+  </header>
 <body background="img/orion.jpg">
 <div class="container">
 <h4 class="textesqueci">Preencha corretamente os campos abaixo</h4>

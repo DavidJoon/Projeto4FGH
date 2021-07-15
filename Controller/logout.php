@@ -1,5 +1,5 @@
 <?php
 include_once("../Model/bancoUsuario.php");
 logout();
-header("Location: ../View/acessofun.php");
+header("Location: ../View/index.php");
 ?>

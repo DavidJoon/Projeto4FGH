@@ -12,7 +12,7 @@ $jogo = mysqli_fetch_assoc($resul);
 
 ?>
 
-<div class="container">
+<div class="container mt-4">
 
   <form action="../Controller/alteraXboxone.php" method="post" class="row g-3">
 
