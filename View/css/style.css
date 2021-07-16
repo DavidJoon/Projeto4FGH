@@ -472,7 +472,7 @@ th{
 
 .contcuri{
     background-color: black;
-    width: 90%;
+    width: 1220px;
     margin-left: 5%;
 }
 .conteudocuri{
@@ -863,7 +863,7 @@ th{
 /* Main Novidades */
 .mnovidades{
     margin-top: 30px;
-    width: 96%;
+    width: 1285px;
     margin-left: 2%;
 }
 
@@ -1035,39 +1035,45 @@ th{
 
 /* Main Galeria */
 .mgaleria{
-    height: 1600px;
-    width: 90%;
+    float: left;
+    width: 1191px;
     margin-top: 30px;
     margin-left: 5%;
 }
 
 /* Section Galeria */
 .cardgen{
-    border-style:solid;
-    border-width: 1px 1px rgb(138, 137, 137);
+    margin-left: 27px;
+    float: left;
+    border-width: 3px;
+    border-color: whitesmoke;
+    border-style: solid;
     border-radius: 20px;
     font-style: oblique;
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     height: 400px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 /* Cards Galeria */
 .cardfran{
     float: left;
-    margin-left: 23px;
+    margin-left: 5px;
     border-radius: 5px;
     width: 214px;
     height: 355px;
+    margin-right: 5px;
 }
 .card-bodyy{
+    text-align: center;
     float: left;
     text-align: center;
     margin-top: 5px;
     width: 214px;
 }
 .card-img-topp{
+    background-color: #bb4e6d;
     border-radius: 5px;
     width: 214px;
     height: 310px;
@@ -1076,52 +1082,60 @@ th{
 
 /* Nomes Franquias */
 .card-terror{
+    text-align: center;
     color: rgb(206, 65, 65);
     text-shadow:1px 1px whitesmoke;
 }
 .card-luta{
-    color: rgb(86, 223, 179);
+    text-align: center;
+    color: rgb(24, 187, 24);
     text-shadow:1px 1px whitesmoke;
 }
 .card-corrida{
-    color: rgb(25, 181, 253);
+    text-align: center;
+    color: rgb(14, 77, 107);
     text-shadow:1px 1px whitesmoke;
 }
 .card-acao{
-    color: rgb(236, 138, 9);
+    text-align: center;
+    color: rgb(148, 85, 3);
     text-shadow:1px 1px whitesmoke;
 }
 
 /* Gêneros */
 .gengamet{
+    width: 120px;
     padding-bottom: 3px;
     padding-top: 3px;
     color: rgb(206, 65, 65);
-    text-shadow:1px 1px rgb(206, 65, 65);
-    margin-left: 65px;
+    text-shadow:1px 1px whitesmoke;
+    margin-left: 45px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .gengamel{
+    width: 80px;
     padding-bottom: 3px;
     padding-top: 3px;
-    color: rgb(86, 223, 179);
-    text-shadow:1px 1px rgb(86, 223, 179);
-    margin-left: 85px;
+    color: rgb(24, 187, 24);
+    text-shadow:1px 1px whitesmoke;
+    margin-left: 65px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .gengamec{
+    width: 130px;
     padding-bottom: 3px;
     padding-top: 3px;
-    color: rgb(25, 181, 253);
-    text-shadow:1px 1px rgb(25, 181, 253);
-    margin-left: 60px;
+    color: rgb(14, 77, 107);
+    text-shadow:1px 1px whitesmoke;
+    margin-left: 45px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .gengamea{
+    width: 90px;
     padding-bottom: 3px;
     padding-top: 3px;
-    color: rgb(236, 138, 9);
-    text-shadow:1px 1px rgb(236, 138, 9);
-    margin-left: 90px;
+    color: rgb(148, 85, 3);
+    text-shadow:1px 1px whitesmoke;
+    margin-left: 70px;
     font-family: Arial, Helvetica, sans-serif;
 }
